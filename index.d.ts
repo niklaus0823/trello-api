@@ -102,6 +102,21 @@ export interface CommentCardSchema {
     id: string;
     idMemberCreator: string;
     data: {
+        board: {
+            id: string;
+            name: string;
+            shortLink: string;
+        };
+        list: {
+            id: string;
+            name: string;
+        };
+        card: {
+            id: string;
+            name: string;
+            idShort: string;
+            shortLink: string;
+        };
         text: string;
         dateLastEdited: string;
     };

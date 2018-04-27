@@ -1,2 +1,2 @@
 "use strict";
-module.exports = require("./build/trello");
+module.exports = require("./build/Trello");
